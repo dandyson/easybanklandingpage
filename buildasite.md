@@ -77,3 +77,7 @@ Then set the active state of each list item to display block, so they appear whe
     display: block;
 }
 ```
+
+## Making it tablet responsive
+
+/* Tablet mentu
