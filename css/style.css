@@ -136,6 +136,7 @@ nav {
 
 .whyChooseSection {
     background-color: #F4F5F7;
+    height: 625px;
 }
 
 .whyChooseSectionIntro {
@@ -173,6 +174,7 @@ nav {
 
 .articlesSection {
     padding-top: 75px;
+    padding-bottom: 75px;
 }
 
 .articlesSection h1 {
