@@ -17,14 +17,7 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
 
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
   </style>
 </head>
 
@@ -47,14 +40,13 @@
   <!-- HEADER -->
   <div class="header">
     <div class="headerText">
-      <h1>Next generation digital banking</h1>
+      <h1 class="sectionTitle">Next generation digital banking</h1>
       <p>Take your financial life online. Your Easybank account will be a one-stop-shop for spending, saving, budgeting,
         investing and much more</p>
       <div class="inviteButton"><a href="#">Request Invite</a></div>
     </div>
 
     <div class="headerImages">
-      <img src="images/bg-intro-desktop.svg" alt="introBackground" id="introBackground">
       <img src="images/image-mockups.png" alt="introMockups" id="introMockups">
     </div>
   </div>
@@ -62,9 +54,11 @@
 
   <!-- WHY CHOOSE SECTION -->
   <div class="whyChooseSection">
-    <h1>Why Choose Easybank?</h1>
-    <p>We leverage Open Banking to turn your bank account into your financial hub. Control your finances like never
-      before.</p>
+    <div class="whyChooseSectionIntro">
+      <h1 class="sectionTitle">Why Choose Easybank?</h1>
+      <p>We leverage Open Banking to turn your bank account into your financial hub. Control your finances like never
+        before.</p>
+    </div>
     <div class="whyChooseContainer">
       <div class="reasonContainer">
         <img src="images/icon-online.svg" alt="online" srcset="">
@@ -100,48 +94,88 @@
 
   <!--ARTICLES SECTION-->
   <div class="articlesSection">
+    <h1 class="sectionTitle">Latest Articles</h1>
     <div class="articlesContainer">
 
       <div class="articleCard">
         <img src="images/image-currency.jpg" alt="">
-        <p class="author">By Wilson Hutton</p>
-        <h3>Treat yourself without worrying about money</h3>
-        <p>Our simple budgeting feature allows you to separate out your spending and set realistic limits each month.
-          That means you...</p>
+        <div class="articleTextDiv">
+          <p class="author">By Claire Robinson</p>
+          <h3>Receive money in any currency with no fees</h3>
+          <p>Thhe world is getting smaller and we're becoming more mobile. So why should you be forced to only receive
+            money in a single...</p>
+        </div>
       </div>
 
       <div class="articleCard">
-        <img src="images/image-currency.jpg" alt="">
-        <p class="author">By Wilson Hutton</p>
-        <h3>Treat yourself without worrying about money</h3>
-        <p>Our simple budgeting feature allows you to separate out your spending and set realistic limits each month.
-          That means you...</p>
+        <img src="images/image-restaurant.jpg" alt="">
+        <div class="articleTextDiv">
+          <p class="author">By Wilson Hutton</p>
+          <h3>Treat yourself without worrying about money</h3>
+          <p>Our simple budgeting feature allows you to separate out your spending and set realistic limits each month.
+            That means you...</p>
+        </div>
       </div>
 
       <div class="articleCard">
-        <img src="images/image-currency.jpg" alt="">
-        <p class="author">By Wilson Hutton</p>
-        <h3>Treat yourself without worrying about money</h3>
-        <p>Our simple budgeting feature allows you to separate out your spending and set realistic limits each month.
-          That means you...</p>
+        <img src="images/image-plane.jpg" alt="">
+        <div class="articleTextDiv">
+          <p class="author">By Wilson Hutton</p>
+          <h3>Take your Easybank card wherever you go</h3>
+          <p>We want you to enjoy your travels. This is why we don't charge any fees on purchases while you're abroad.
+            We'll even show you...</p>
+        </div>
       </div>
 
       <div class="articleCard">
-        <img src="images/image-currency.jpg" alt="">
-        <p class="author">By Wilson Hutton</p>
-        <h3>Treat yourself without worrying about money</h3>
-        <p>Our simple budgeting feature allows you to separate out your spending and set realistic limits each month.
-          That means you...</p>
+        <img src="images/image-confetti.jpg" alt="">
+        <div class="articleTextDiv">
+          <p class="author">By Claire Robinson</p>
+          <h3>Our invite-only Beta accounts are now live!</h3>
+          <p>After a lot of hard work by the whole team, we're excited to launch our closed beta. It's easy to request
+            an invite through the site...</p>
+        </div>
       </div>
-
 
     </div>
   </div>
+  <!--END OF ARTICLES SECTION-->
 
+  <!--FOOTER-->
+  <footer>
+    <div class="footerContainer">
+      <img src="images/logo.svg" alt="">
+      <div class="iconContainer">
+        <img src="images/icon-facebook.svg" alt="">
+        <img src="images/icon-youtube.svg" alt="">
+        <img src="images/icon-twitter.svg" alt="">
+        <img src="images/icon-pinterest.svg" alt="">
+        <img src="images/icon-instagram.svg" alt="">
+      </div>
+    </div>
+
+    <!-- NAV -->
+    <ul class="footerMenu">
+      <li class="item"><a href="#">Home</a></li>
+      <li class="item"><a href="#">About</a></li>
+      <li class="item"><a href="#">Contact</a></li>
+      <li class="item"><a href="#">Blog</a></li>
+      <li class="item"><a href="#">Careers</a></li>
+      <li class="item"><a href="#">Privacy Policy</a></li>
+    </ul>
+    <!-- END OF NAV -->
+    <div class="footerContainer">
+      <div class="inviteButton"><a href="#">Request Invite</a></div>
+      <p>&copy; Easybank. All Rights Reserved</p>
+    </div>
+  </footer>
+
+  <!--END OF FOOTER-->
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="dandyson.github.io">Dan Dyson</a>.
   </div>
+
 
   <script src="main.js"></script>
 </body>
