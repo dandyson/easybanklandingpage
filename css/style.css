@@ -49,17 +49,19 @@ nav {
 }
 
 .menu {
+    margin: 0 auto;
     display: flex;
 }
 
 .menu li {
-    padding: 20px;
+    padding: 10px;
     display: flex;
     justify-content: space-around;
 }
 
 .menu li a {
     text-decoration: none;
+    font-weight: 400;
 }
 
 .hamburger {
@@ -69,10 +71,6 @@ nav {
 
 .inviteButton {
     display: block;
-}
-
-.menu-active {
-    transform: translateY(0%);
 }
 
 /************HEADER*****************/
@@ -321,17 +319,25 @@ footer p {
     }
 
     .menu {
+        padding: 20px;
+        border-radius: 10px;
         position: absolute;
         right: 0;
         left: 0;
-        height: 42vh;
+        height: 25vh;
+        width: 250px;
         top: 8vh;
-        background-color: green;
+        background-color: white;
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
         transform: translateY(-150%);
         transition: transform 0.5s ease-in;
+    }
+
+    .menu-active {
+        transform: translateY(10%);
     }
 
     .hamburger {
