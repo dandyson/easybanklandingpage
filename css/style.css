@@ -61,9 +61,15 @@ nav {
 }
 
 .menu li a {
+    transition: all 0.2s ease-in-out;
     text-decoration: none;
     font-weight: 400;
     color: hsl(233, 26%, 24%);
+}
+
+.menu li a:hover {
+    text-decoration: underline;
+    transform: scale(1.2);
 }
 
 .hamburger {
@@ -138,7 +144,7 @@ nav {
 
 .whyChooseSection {
     background-color: #F4F5F7;
-    height: 625px;
+    height: 100%;
 }
 
 .whyChooseSectionIntro {
@@ -159,6 +165,7 @@ nav {
 .whyChooseContainer {
     margin: 0 auto;
     width: 90%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -186,6 +193,7 @@ nav {
 .articlesContainer {
     margin: 0 auto;
     display: flex;
+    height: 100%;
     width: 90%;
     justify-content: center;
     align-items: center;
@@ -324,11 +332,11 @@ footer p {
 
     .menu {
         padding: 20px;
-        border-radius: 10px;
+        border-radius: 20px;
         position: absolute;
         right: 0;
         left: 0;
-        height: 25vh;
+        height: 250px;
         width: 250px;
         top: 8vh;
         background-color: white;
